@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Toko",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_icon": {
+      "16": "red.png", // Icon awal berwarna merah
+      "48": "red.png"
+    },
+    "default_title": "Icon Change Extension"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "red.png", // Icon di laman Chrome Web Store
+    "96": "red.png"
+  }
+}
