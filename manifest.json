@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Toko",
+  "name": "Rutin Ngonten",
   "version": "1.0",
   "permissions": ["storage"],
   "browser_action": {
@@ -8,7 +8,7 @@
       "16": "red.png", // Icon awal berwarna merah
       "48": "red.png"
     },
-    "default_title": "Icon Change Extension"
+    "default_title": "Rutin Ngonten"
   },
   "background": {
     "scripts": ["background.js"],
