@@ -11,7 +11,7 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     var today = new Date().toISOString().slice(0, 10); // Ambil tanggal hari ini (format YYYY-MM-DD)
     if (data.tanggal != today) {
       // Konfirmasi sebelum mengubah tanggal dan ikon
-      if (confirm("Sudah posting materi bermanfaat di media sosial?")) {
+      if (confirm("Sudah posting konten bermanfaat di media sosial?")) {
         chrome.storage.sync.set({ tanggal: today }, function () {
           chrome.browserAction.setIcon({ path: "green.png", tabId: tab.id });
         });
